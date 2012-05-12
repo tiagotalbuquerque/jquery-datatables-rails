@@ -1,4 +1,4 @@
-
+$linkColor: #8f5b00;
 /*
  * Table
  */
@@ -552,77 +552,77 @@ div.DTTT_collection button.DTTT_button {
 
 /* DataTable Customizations */
      
-    .dataTable {
-      margin-bottom:0;
-      table-layout: fixed;
-      word-wrap:break-word;
-      tr {
-        td {
-          font-size:12px;
-          a:hover{color:$linkColor;}
-        }
-        th {
-          font-size:11px;
-          font-weight:normal;
-          text-transform:uppercase;
-          &.ui-state-default {
-            background:#C8C9B5;
-            border: 0 none; }
-        }
-      }
-      .btn {margin-bottom:0}
+.dataTable {
+  margin-bottom:0;
+  table-layout: fixed;
+  word-wrap:break-word;
+  tr {
+    td {
+      font-size:12px;
+      a:hover{color:$linkColor;}
     }
-     
-    .table-striped tbody tr:nth-child(odd) td,
-    .table-striped tbody tr:nth-child(odd) th {
-      background-color: #e3e4cf;
+    th {
+      font-size:11px;
+      font-weight:normal;
+      text-transform:uppercase;
+      &.ui-state-default {
+        background:#C8C9B5;
+        border: 0 none; }
     }
-    .table-striped tbody tr:nth-child(even) td,
-    .table-striped tbody tr:nth-child(even) th {
-      background-color: #d5d6c1;
-    }
-     
-    .dataTables_wrapper {
-      margin-bottom:18px;
-      -webkit-box-shadow: 0px 2px 4px 0px #888;
-              box-shadow: 0px 2px 4px 0px #888;
-      -webkit-border-radius: 4px;
-              border-radius: 4px;
-      .ui-state-disabled {display:none}
-    }
-     
-    .ui-widget-header {
-      background:#C8C9B5;
-      border:none;
-    }
-     
-    .DataTables_sort_icon {display:inline-block}
-     
-    .dataTables_length,
-    .dataTables_filter {
-      select,
-      label,
-      input {
-        display:inline-block;
-        margin-bottom:0;
-        width:auto; }
-    }
-     
-    .dataTables_paginate .ui-button {
-      margin-right: -0.1em !important;
-      background-color: #b2b39f;
-      background-color: #b2b39f;
-      background-image: -webkit-gradient(linear, left top, left bottom, from(#b2b39f), to(#919191));
-      background-image: -webkit-linear-gradient(top, #b2b39f, #919191);
-      background-image:    -moz-linear-gradient(top, #b2b39f, #919191);
-      background-image:     -ms-linear-gradient(top, #b2b39f, #919191);
-      background-image:      -o-linear-gradient(top, #b2b39f, #919191);
-      background-image:         linear-gradient(to bottom, #b2b39f, #919191);
-      border: 1px solid silver;
-      &:hover {
-        background-color: #919191;
-        background-image:none; }
-    }
-     
-     
-    /* End DataTable Customizations */
+  }
+  .btn {margin-bottom:0}
+}
+ 
+.table-striped tbody tr:nth-child(odd) td,
+.table-striped tbody tr:nth-child(odd) th {
+  background-color: #e3e4cf;
+}
+.table-striped tbody tr:nth-child(even) td,
+.table-striped tbody tr:nth-child(even) th {
+  background-color: #d5d6c1;
+}
+ 
+.dataTables_wrapper {
+  margin-bottom:18px;
+  -webkit-box-shadow: 0px 2px 4px 0px #888;
+          box-shadow: 0px 2px 4px 0px #888;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  .ui-state-disabled {display:none}
+}
+ 
+.ui-widget-header {
+  background:#C8C9B5;
+  border:none;
+}
+ 
+.DataTables_sort_icon {display:inline-block}
+ 
+.dataTables_length,
+.dataTables_filter {
+  select,
+  label,
+  input {
+    display:inline-block;
+    margin-bottom:0;
+    width:auto; }
+}
+ 
+.dataTables_paginate .ui-button {
+  margin-right: -0.1em !important;
+  background-color: #b2b39f;
+  background-color: #b2b39f;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b2b39f), to(#919191));
+  background-image: -webkit-linear-gradient(top, #b2b39f, #919191);
+  background-image:    -moz-linear-gradient(top, #b2b39f, #919191);
+  background-image:     -ms-linear-gradient(top, #b2b39f, #919191);
+  background-image:      -o-linear-gradient(top, #b2b39f, #919191);
+  background-image:         linear-gradient(to bottom, #b2b39f, #919191);
+  border: 1px solid silver;
+  &:hover {
+    background-color: #919191;
+    background-image:none; }
+}
+ 
+ 
+/* End DataTable Customizations */
